@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16.3)
+project(smooth)
+file(GLOB_RECURSE SOURCES "${PROJECT_SOURCE_DIR}/src/*.cpp")
+set(HEAD_DIR ${PROJECT_SOURCE_DIR}/include)
+add_subdirectory(src)
